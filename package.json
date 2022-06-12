@@ -1,0 +1,42 @@
+{
+    "name": "derw-formatter-vscode",
+    "displayName": "derw-formatter-vscode",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "eeue56",
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Formatters"
+    ],
+    "activationEvents": [
+        "onLanguage:derw"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "languages": [
+            {
+                "id": "derw",
+                "aliases": [
+                    "Derw"
+                ],
+                "extensions": [
+                    "derw"
+                ]
+            }
+        ]
+    },
+    "scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -b"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.42",
+        "typescript": "^4.7.3",
+        "vscode": "^1.1.37"
+    },
+    "dependencies": {
+        "derw": "^0.0.6-0"
+    }
+}
