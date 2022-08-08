@@ -28,8 +28,8 @@
         ]
     },
     "scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -b"
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -b"
     },
     "devDependencies": {
         "@types/node": "^17.0.42",
@@ -37,6 +37,6 @@
         "vscode": "^1.1.37"
     },
     "dependencies": {
-        "derw": "^0.0.9-7"
+        "derw": "^0.0.9-8"
     }
 }
