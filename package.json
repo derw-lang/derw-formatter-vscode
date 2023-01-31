@@ -1,18 +1,30 @@
 {
     "name": "derw-formatter-vscode",
     "displayName": "derw-formatter-vscode",
-    "description": "",
+    "description": "An automatic formatter extension for Derw",
+    "author": "eeue56",
     "version": "0.0.1",
-    "publisher": "eeue56",
+    "publisher": "derw",
+    "repository": "https://github.com/derw-lang/derw-formatter-vscode",
     "engines": {
         "vscode": "^1.6.0"
     },
     "categories": [
         "Formatters"
     ],
+    "keywords": [
+        "derw",
+        "formatter",
+        "format"
+    ],
     "activationEvents": [
         "onLanguage:derw"
     ],
+    "sponsor": {
+        "url": "https://github.com/sponsors/eeue56"
+    },
+    "pricing": "Free",
+    "icon": "derw_logo.png",
     "main": "./out/src/extension",
     "contributes": {
         "languages": [
@@ -37,6 +49,6 @@
         "vscode": "^1.1.37"
     },
     "dependencies": {
-        "derw": "^0.0.9-17"
+        "derw": "^0.0.9-21"
     }
 }
