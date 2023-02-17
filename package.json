@@ -3,7 +3,7 @@
     "displayName": "derw-formatter-vscode",
     "description": "An automatic formatter extension for Derw",
     "author": "eeue56",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "publisher": "derw",
     "repository": "https://github.com/derw-lang/derw-formatter-vscode",
     "engines": {
