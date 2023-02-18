@@ -1,2 +1,7 @@
 **/*.ts
 **/*.md
+.vscode
+node_modules
+src/
+tsconfig.json
+webpack.config.js
